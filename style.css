@@ -1,0 +1,64 @@
+@charset "utf-8";  
+@media screen and (min-width:324px) {
+
+*{ padding:0px; margin:0px; }
+
+:root   {  
+            --blue:#0066FE;
+            --gray:#A39E9E;
+            --font-black:'ex_01';
+            --font-medium:'ex_02';
+            --font-regular:'ex_03';
+            --roboto-regular:'ex_04';
+        }
+
+@font-face { font-family:'ex_01'; src: url(/typography/Poppins/Poppins-Black.ttf) format(truetype);  }
+@font-face { font-family:'ex_02'; src: url(/typography/Poppins/Poppins-Medium.ttf) format(truetype);  }
+@font-face { font-family:'ex_03'; src: url(/typography/Poppins/Poppins-Regular.ttf) format(opentype);  }
+@font-face { font-family:'ex_04'; src: url(/typography/roboto/Roboto-Regular.ttf) format(opentype);  }
+
+div.flexbox-items {  margin:5px; width:200px; background-color:pink;  }
+html { scroll-behavior: smooth;  }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+section#flexbox-container-a { display:flex;  justify-content:space-between; height:60px; align-items:center; width:98vw; margin:auto; margin-top:10px;  border:1px solid black;} 
+
+ div#flexbox-item-a1 {  min-height:50px; display:flex; justify-content:flex-start; align-items:center;  }
+ div#flexbox-item-a1 > img {width:40px; }
+
+ div#flexbox-item-a2 {  min-height:50px; display:flex; justify-content:center; align-items:center;  }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ section#flexbox-container-b { display:flex;  justify-content:space-between; height:452px; align-items:flex-end; width:98vw; margin:auto;  border:1px solid black; 
+                                background-image:url('images/Starbucks_Logo.png'); background-size:cover; background-position:center; background-repeat:no-repeat;}
+        
+ div#flexbox-item-b1 {  min-height:50px; display:flex; justify-content:center; align-items:center; }
+ div#flexbox-item-b1 > a { text-decoration:none; border:1px solid black; border-radius:17.3px; padding: 8px 20px 8px 20px; }
+
+ div#flexbox-item-b2 {  min-height:50px; display:flex; justify-content:center; align-items:center;  }
+ div#flexbox-item-b2 > a { text-decoration:none; border:1px solid black; border-radius:17.3px; padding: 8px 20px 8px 20px; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+section#flexbox-container-c { display:flex; height:148px; align-items:flex-end; width:98vw; margin:auto;  border:1px solid black; 
+    background-image:url('images/banner\ home\ pt.png.png'); background-size:cover; background-position:center; background-repeat:no-repeat; }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+section#flexbox-container-d { display:flex;  justify-content:space-between; height:270px; align-items:flex-start; width:98vw; margin:auto; margin-top:35px;  border:1px solid black;} 
+ 
+    div#flexbox-item-d1 {  min-height:260px; display:flex; justify-content:flex-start; align-items:flex-start; flex-direction:column; width:92vw; }
+    div#flexbox-item-d1 > p { text-align:justify; margin-top:20px;  }
+    div#flexbox-item-d1 > a { margin-top:20px; text-decoration:none; }
+
+ /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ section#flexbox-container-e { display:flex;  justify-content:center; height:670px; align-items:flex-start; width:98vw; margin:auto; margin-top:35px;  border:1px solid black;} 
+   
+    div#flexbox-item-e1 {  min-height:260px; display:flex; justify-content:flex-start; align-items:flex-start; flex-direction:column; width:98vw; }
+    div#flexbox-item-e1 > img { width:98vw; }
+    div#flexbox-item-e1 > h1 {  margin-top:20px;  }
+    div#flexbox-item-e1 > p { text-align:justify; margin-top:20px;  }
+    div#flexbox-item-e1 > a { margin-top:20px; text-decoration:none; }
+}
