@@ -5,5 +5,5 @@ Original: https://www.starbucks.pt/
 
 
 <p> 
-    Website cloning is a popular method to scam people out of money and/or to damage the credibility of reputable websites and companies. I've decided to clone this website in order to practice my coding skills. The inspiration comes from an article that i was reading few weeks ago about how hackers clone wbsites to explore and scam the victims. You might say that the URL exposes the scam, changes such as different typography is enough to make you click.
+    Website cloning is a popular method to scam people out of money and/or to damage the credibility of reputable websites and companies. I've decided to clone this website in order to practice my coding skills. The inspiration comes from an article that i was reading few weeks ago about how hackers clone websites to explore and scam the victims. You might say that the URL exposes the scam, changes such as different typography is enough to make you click.
 </p>
