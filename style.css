@@ -19,6 +19,8 @@
 @font-face { font-family:'ex_04'; src: url(/fonts/sodo-sans-semi-bold.ttf) format(truetype);  }
 
 div#body-02 { display:none;}
+div#body-03 {display:none;}
+
 
 div.flexbox-items {  margin:5px; width:200px; background-color:transparent;  }
 html { scroll-behavior: smooth;  }
